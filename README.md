@@ -2,10 +2,10 @@
 ## Introducción 
 En esta práctica utilizaremos la ESP32 como entorno de adquision de datos, por lo tanto se utilizará un sensor DTH11 para obtener datos de temperatura y humedad del entorno; también una pantalla LCD para vizualizar los datos del progrema. Como dato adicional, se utilizara WOKI para asimular esta práctica.
 ## Material a utlizar
-+WOKWI
-+Tarjeta ESP 32
-+Sensor DHT22
-+LCD 16 x 2 (IC2)
++ WOKWI
++ Tarjeta ESP 32
++ Sensor DHT22
++ LCD 16 x 2 (IC2)
 ## Programación
 ```
 #include "DHTesp.h"

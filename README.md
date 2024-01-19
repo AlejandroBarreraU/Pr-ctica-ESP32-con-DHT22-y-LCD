@@ -1,6 +1,6 @@
 # Práctica ESP32 con DHT22 y LCD
 ## Programación
-´´´
+```
 #include "DHTesp.h"
 #include <LiquidCrystal_I2C.h>
 #define I2C_ADDR    0x27
@@ -37,13 +37,22 @@ void loop() {
 
   delay(1000);
 }
-´´´
+```
 ## Librerias a utilizar
 1. DHT sensor library for ESPx
+   ![](https://github.com/AlejandroBarreraU/PracticESP32conDHT22yLCD/blob/main/instalar%20librerias.png?raw=true)
 2. LiquidCrystal I2C
-
+   ![](https://github.com/AlejandroBarreraU/PracticESP32conDHT22yLCD/blob/main/instalar%20librerias%202.png?raw=true)
+## Instrucciones 
+1. Agrega el sensor DHT22.
+   ![](https://github.com/AlejandroBarreraU/PracticESP32conDHT22yLCD/blob/main/agregar%20sensor.png?raw=true)
+2. Agrega LCD.
+   ![](https://github.com/AlejandroBarreraU/PracticESP32conDHT22yLCD/blob/main/agrear%20lcd.png?raw=true)
 ## Conexiones
+Se realizan las conexiones como se viasualiza en la imagen.
+![](https://github.com/AlejandroBarreraU/PracticESP32conDHT22yLCD/blob/main/conexiones%202.png?raw=true)
 ## Resultados
 Una vez ejecutado el programa se mostrarán datos de temperatura y humedad en la pantalla.
+![](https://github.com/AlejandroBarreraU/PracticESP32conDHT22yLCD/blob/main/resultados.png?raw=true)
 ## Créditos
 Elaborado por el Ing. Alejandro Barrera
